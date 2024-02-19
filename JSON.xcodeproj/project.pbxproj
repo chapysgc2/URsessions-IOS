@@ -16,6 +16,10 @@
 		BA3DF5F42B81EA1700FBA384 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DF5F32B81EA1700FBA384 /* JSONTests.swift */; };
 		BA3DF5FE2B81EA1700FBA384 /* JSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DF5FD2B81EA1700FBA384 /* JSONUITests.swift */; };
 		BA3DF6002B81EA1700FBA384 /* JSONUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DF5FF2B81EA1700FBA384 /* JSONUITestsLaunchTests.swift */; };
+		BA3DF6102B81ED1F00FBA384 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DF60F2B81ED1F00FBA384 /* PostModel.swift */; };
+		BA3DF6122B81F15700FBA384 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DF6112B81F15700FBA384 /* PostViewModel.swift */; };
+		BA79A7E62B832A5C000552AA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79A7E52B832A5C000552AA /* Login.swift */; };
+		BA79A7E82B832A9E000552AA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79A7E72B832A9E000552AA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		BA3DF5F92B81EA1700FBA384 /* JSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3DF5FD2B81EA1700FBA384 /* JSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUITests.swift; sourceTree = "<group>"; };
 		BA3DF5FF2B81EA1700FBA384 /* JSONUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA3DF60F2B81ED1F00FBA384 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		BA3DF6112B81F15700FBA384 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		BA79A7E52B832A5C000552AA /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		BA79A7E72B832A9E000552AA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,9 @@
 		BA3DF5DC2B81EA1500FBA384 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				BA3DF60E2B81EA9A00FBA384 /* View */,
+				BA3DF60D2B81EA8A00FBA384 /* ViewModel */,
+				BA3DF60C2B81EA7F00FBA384 /* Model */,
 				BA3DF5DD2B81EA1500FBA384 /* JSONApp.swift */,
 				BA3DF5DF2B81EA1500FBA384 /* ContentView.swift */,
 				BA3DF5E12B81EA1700FBA384 /* Assets.xcassets */,
@@ -131,6 +142,31 @@
 				BA3DF5FF2B81EA1700FBA384 /* JSONUITestsLaunchTests.swift */,
 			);
 			path = JSONUITests;
+			sourceTree = "<group>";
+		};
+		BA3DF60C2B81EA7F00FBA384 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA3DF60F2B81ED1F00FBA384 /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA3DF60D2B81EA8A00FBA384 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA3DF6112B81F15700FBA384 /* PostViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA3DF60E2B81EA9A00FBA384 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA79A7E52B832A5C000552AA /* Login.swift */,
+				BA79A7E72B832A9E000552AA /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA79A7E62B832A5C000552AA /* Login.swift in Sources */,
+				BA3DF6122B81F15700FBA384 /* PostViewModel.swift in Sources */,
 				BA3DF5E72B81EA1700FBA384 /* Persistence.swift in Sources */,
 				BA3DF5E02B81EA1500FBA384 /* ContentView.swift in Sources */,
 				BA3DF5DE2B81EA1500FBA384 /* JSONApp.swift in Sources */,
 				BA3DF5EA2B81EA1700FBA384 /* JSON.xcdatamodeld in Sources */,
+				BA79A7E82B832A9E000552AA /* Home.swift in Sources */,
+				BA3DF6102B81ED1F00FBA384 /* PostModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
