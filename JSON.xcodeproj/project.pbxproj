@@ -20,6 +20,8 @@
 		BA3DF6122B81F15700FBA384 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DF6112B81F15700FBA384 /* PostViewModel.swift */; };
 		BA79A7E62B832A5C000552AA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79A7E52B832A5C000552AA /* Login.swift */; };
 		BA79A7E82B832A9E000552AA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79A7E72B832A9E000552AA /* Home.swift */; };
+		BA80F9CB2B85F4AE004E1582 /* Modelo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80F9CA2B85F4AE004E1582 /* Modelo1.swift */; };
+		BA80F9CD2B85F702004E1582 /* Modelo1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80F9CC2B85F702004E1582 /* Modelo1ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		BA3DF6112B81F15700FBA384 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		BA79A7E52B832A5C000552AA /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		BA79A7E72B832A9E000552AA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BA80F9CA2B85F4AE004E1582 /* Modelo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1.swift; sourceTree = "<group>"; };
+		BA80F9CC2B85F702004E1582 /* Modelo1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				BA3DF60F2B81ED1F00FBA384 /* PostModel.swift */,
+				BA80F9CA2B85F4AE004E1582 /* Modelo1.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				BA3DF6112B81F15700FBA384 /* PostViewModel.swift */,
+				BA80F9CC2B85F702004E1582 /* Modelo1ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -307,6 +313,8 @@
 				BA3DF5EA2B81EA1700FBA384 /* JSON.xcdatamodeld in Sources */,
 				BA79A7E82B832A9E000552AA /* Home.swift in Sources */,
 				BA3DF6102B81ED1F00FBA384 /* PostModel.swift in Sources */,
+				BA80F9CD2B85F702004E1582 /* Modelo1ViewModel.swift in Sources */,
+				BA80F9CB2B85F4AE004E1582 /* Modelo1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
