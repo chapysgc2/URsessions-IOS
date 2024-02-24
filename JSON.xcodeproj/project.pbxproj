@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1702F22B89CFF70096D34D /* Modelo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1702F12B89CFF70096D34D /* Modelo2.swift */; };
+		BA1702F42B89D29A0096D34D /* Modelo2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1702F32B89D29A0096D34D /* Modelo2ViewModel.swift */; };
+		BA1702F82B89D3B40096D34D /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1702F72B89D3B40096D34D /* Home2.swift */; };
 		BA3DF5DE2B81EA1500FBA384 /* JSONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DF5DD2B81EA1500FBA384 /* JSONApp.swift */; };
 		BA3DF5E02B81EA1500FBA384 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DF5DF2B81EA1500FBA384 /* ContentView.swift */; };
 		BA3DF5E22B81EA1700FBA384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3DF5E12B81EA1700FBA384 /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA1702F12B89CFF70096D34D /* Modelo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo2.swift; sourceTree = "<group>"; };
+		BA1702F32B89D29A0096D34D /* Modelo2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo2ViewModel.swift; sourceTree = "<group>"; };
+		BA1702F72B89D3B40096D34D /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
 		BA3DF5DA2B81EA1500FBA384 /* JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3DF5DD2B81EA1500FBA384 /* JSONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONApp.swift; sourceTree = "<group>"; };
 		BA3DF5DF2B81EA1500FBA384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 			children = (
 				BA3DF60F2B81ED1F00FBA384 /* PostModel.swift */,
 				BA80F9CA2B85F4AE004E1582 /* Modelo1.swift */,
+				BA1702F12B89CFF70096D34D /* Modelo2.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +169,7 @@
 			children = (
 				BA3DF6112B81F15700FBA384 /* PostViewModel.swift */,
 				BA80F9CC2B85F702004E1582 /* Modelo1ViewModel.swift */,
+				BA1702F32B89D29A0096D34D /* Modelo2ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -171,6 +179,7 @@
 			children = (
 				BA79A7E52B832A5C000552AA /* Login.swift */,
 				BA79A7E72B832A9E000552AA /* Home.swift */,
+				BA1702F72B89D3B40096D34D /* Home2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -309,11 +318,14 @@
 				BA3DF6122B81F15700FBA384 /* PostViewModel.swift in Sources */,
 				BA3DF5E72B81EA1700FBA384 /* Persistence.swift in Sources */,
 				BA3DF5E02B81EA1500FBA384 /* ContentView.swift in Sources */,
+				BA1702F22B89CFF70096D34D /* Modelo2.swift in Sources */,
 				BA3DF5DE2B81EA1500FBA384 /* JSONApp.swift in Sources */,
 				BA3DF5EA2B81EA1700FBA384 /* JSON.xcdatamodeld in Sources */,
+				BA1702F42B89D29A0096D34D /* Modelo2ViewModel.swift in Sources */,
 				BA79A7E82B832A9E000552AA /* Home.swift in Sources */,
 				BA3DF6102B81ED1F00FBA384 /* PostModel.swift in Sources */,
 				BA80F9CD2B85F702004E1582 /* Modelo1ViewModel.swift in Sources */,
+				BA1702F82B89D3B40096D34D /* Home2.swift in Sources */,
 				BA80F9CB2B85F4AE004E1582 /* Modelo1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -46,11 +46,9 @@ struct Home: View {
                     }) {
                         Text("Salir") // Texto del botón "Salir"
                     },
-                    trailing: Button(action:{
-                        // Acción del botón "Siguiente"
-                        // Aquí puedes agregar acciones para ir a la siguiente pantalla, si es necesario
-                    }) {
-                        Text("Siguiente") // Texto del botón "Siguiente"
+                    trailing:
+                        NavigationLink(destination: Home2()){
+                            Text("Siguiente")
                     }
                     
                 )
