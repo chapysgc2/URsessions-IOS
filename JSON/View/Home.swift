@@ -17,7 +17,6 @@ struct Home: View {
         // Se envuelve la vista en un NavigationView para agregar una barra de navegación
         NavigationView {
             // Contenido de la vista
-            Text("Bienvenido") // Muestra un texto de bienvenida en la pantalla
             
             
             if json.datosModelo.isEmpty {
@@ -31,6 +30,8 @@ struct Home: View {
                     VStack(alignment: .leading) {
                         Text(item.name)
                         Text(item.email)
+                        Text(item.address.geo.lat)
+                        Text(item.address.geo.lng)
                         
                     }
                 }.navigationTitle("JSON") // Establece el título de la barra de navegación
